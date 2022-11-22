@@ -36,6 +36,7 @@ public class Main {
 				System.out.println("Please enter a number for the Radius");
 				System.out.println("How long is the radius? (Place a number the press SHIFT");
 				cc = new Circle(in.nextDouble());
+				cc.printStats();
 			} else if(userChoice == 3) {
 				System.out.println("You Selected RECTANGLE");
 				System.out.println("Please enter a number Length and Width");
